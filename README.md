@@ -49,6 +49,7 @@ Quantity | Part | Mandatory
 1 | Resistor 100kΩ | :heavy_check_mark:
 1 | Resistor 100kΩ |
 1-6 | Resistor for LED | :heavy_check_mark:
+1 | Bicolor (3 pin) or RGB (4 pin) LED | :heavy_check_mark:
 1 | Transistor BC337-40 | :heavy_check_mark:
 1 | LDO regulator MCP1702-3002 | :heavy_check_mark:
 2 | Terminal block RND 205-00232 | :heavy_check_mark:
