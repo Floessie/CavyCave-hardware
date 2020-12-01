@@ -26,6 +26,45 @@ The heart and brain of the controller board is an ATmega328P-PU as found on the 
 
 The control system can be monitored, configured and remotely controlled by an nRF24L01+.
 
+#### BOM
+
+Quantity | Part | Mandatory
+---------|------|----------
+1 | Diode 1N5817 | :heavy_check_mark:
+1 | Diode 1N4001 | :heavy_check_mark:
+2 | Capacitor 22pF |
+5 | Capacitor 100nF | :heavy_check_mark:
+1 | Capacitor 100nF |
+2 | Capacitor 1µF | :heavy_check_mark:
+1 | Capacitor 10µF | :heavy_check_mark:
+1 | Capacitor 10µF |
+1 | Capacitor 100µF | :heavy_check_mark:
+1 | Resistor 100Ω | :heavy_check_mark:
+1 | Resistor 100Ω |
+1 | Resistor 220Ω | :heavy_check_mark:
+1 | Resistor 4.7kΩ | :heavy_check_mark:
+1 | Resistor 4.7kΩ |
+2 | Resistor 10kΩ | :heavy_check_mark:
+1 | Resistor 10kΩ |
+1 | Resistor 100kΩ | :heavy_check_mark:
+1 | Resistor 100kΩ |
+1-6 | Resistor for LED | :heavy_check_mark:
+1 | Transistor BC337-40 | :heavy_check_mark:
+1 | LDO regulator MCP1702-3002 | :heavy_check_mark:
+2 | Terminal block RND 205-00232 | :heavy_check_mark:
+1 | MOSFET IRLIZ34N | :heavy_check_mark:
+1 | MOSFET IRLIZ34N |
+1 | Sensor DHT22 | :heavy_check_mark:
+1 | Sensor DHT22 |
+1 | Sensor DS18B20 | :heavy_check_mark:
+1 | Sensor DS18B20 |
+1 | Fan Sunon MB40100V2-000U-A99 | :heavy_check_mark:
+1 | Crystal HC49U 8MHz |
+1 | Pin socket 2x4 |
+1 | IDC header 2x3 |
+1 | Radio module nRF24L01+ |
+x | Single row pin headers | :heavy_check_mark:
+
 ### History
 
 This project started in the fall of 2018 with a large box for four cavies and two "rooms" ("vestibule" and "lounge") seperately heated. When one cavy was push out of the group in summer 2019 another smaller box had to be built, which has only one heating circuit. For the first box I experimented with 9V input to get 30&nbsp;watts heating power, but that was too much for the polyurethane panel and resulted in hot spots over the load resistors. Still, this could be a solution for even larger boxes with more and higher resistive load resistors as it's easier to find high power 9V supplies than 5V supplies. The fan must then be adjusted accordingly. The MCP1702-3002 LDO regulator for the internal 3.3&nbsp;volts supports up to 13.2&nbsp;volts input operating voltage.
