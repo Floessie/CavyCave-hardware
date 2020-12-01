@@ -16,6 +16,10 @@ A hole in the top right corner of the box serves together with a fan as the exha
 
 Two sensors monitor the temperature and humidity: a DHT22 for air temperature and humidity located in the top right corner of the box near the fan, and a cased DS18B20 under the tile for the floor temperature.
 
+<img src="extras/boxes.jpg" width=45%/>      | <img src="extras/boxes_detail.jpg" width=45%/>
+---------------------------------------------|---------------------------------------------------
+<img src="extras/box_bottom.jpg" width=45%/> | <img src="extras/controller_board.jpg" width=45%/>
+
 ### The controller board
 
 The heart and brain of the controller board is an ATmega328P-PU as found on the popular Arduino boards. Internally supplied with 3.3&nbsp;volts it connects two DHT22 temperature and humdity sensors and two DS18B20 temperature sensors as input and drives two heating circuits and one fan. The input voltage for the board, the fan, and the heating is 5&nbsp;volts. Depending on the load resistors the heating power is about 15 to 20&nbsp;watts.
