@@ -16,9 +16,9 @@ A hole in the top right corner of the box serves together with a fan as the exha
 
 Two sensors monitor the temperature and humidity: a DHT22 for air temperature and humidity located in the top right corner of the box near the fan, and a cased DS18B20 under the tile for the floor temperature.
 
-<img src="extras/boxes.jpg" width=45%/>      | <img src="extras/boxes_detail.jpg" width=45%/>
----------------------------------------------|---------------------------------------------------
-<img src="extras/box_bottom.jpg" width=45%/> | <img src="extras/controller_board.jpg" width=45%/>
+![The boxes](extras/boxes.jpg)                       | ![Details](extras/boxes_detail.jpg)
+-----------------------------------------------------|-------------------------------------------------
+![Load resistors and MOSFETs](extras/box_bottom.jpg) | ![Controller board](extras/controller_board.jpg)
 
 ### The controller board
 
