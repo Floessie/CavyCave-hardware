@@ -49,6 +49,8 @@ Quantity | Part | Mandatory
 1 | Resistor 100kΩ | :heavy_check_mark:
 1 | Resistor 100kΩ |
 1-6 | Resistor for LED | :heavy_check_mark:
+12-18 | Load resistor 22Ω VitrOhm KH208-810B22R | :heavy_check_mark:
+2m+ | Silver plated copper wire 0.8mm | :heavy_check_mark:
 1 | Bicolor (3 pin) or RGB (4 pin) LED | :heavy_check_mark:
 1 | Transistor BC337-40 | :heavy_check_mark:
 1 | LDO regulator MCP1702-3002 | :heavy_check_mark:
