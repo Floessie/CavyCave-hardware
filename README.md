@@ -51,10 +51,12 @@ Quantity | Part | Mandatory
 1-6 | Resistor for LED | :heavy_check_mark:
 12-18 | Load resistor 22Ω VitrOhm KH208-810B22R | :heavy_check_mark:
 2m+ | Silver plated copper wire 0.8mm | :heavy_check_mark:
-1 | Bicolor (3 pin) or RGB (4 pin) LED | :heavy_check_mark:
+1 | Bicolor (3 pin, CC) or RGB (4 pin, CC) LED | :heavy_check_mark:
 1 | Transistor BC337-40 | :heavy_check_mark:
 1 | LDO regulator MCP1702-3002 | :heavy_check_mark:
 2 | Terminal block RND 205-00232 | :heavy_check_mark:
+1 | Black 4mm socket Hirschmann 930 176-100 |
+1 | Red 4mm socket Hirschmann 930 176-101 |
 1 | MOSFET IRLIZ34N | :heavy_check_mark:
 1 | MOSFET IRLIZ34N |
 1 | Sensor DHT22 | :heavy_check_mark:
@@ -70,7 +72,7 @@ x | Single row pin headers | :heavy_check_mark:
 
 ### History
 
-This project started in the fall of 2018 with a large box for four cavies and two "rooms" ("vestibule" and "lounge") seperately heated. When one cavy was push out of the group in summer 2019 another smaller box had to be built, which has only one heating circuit. For the first box I experimented with 9V input to get 30&nbsp;watts heating power, but that was too much for the polyurethane panel and resulted in hot spots over the load resistors. Still, this could be a solution for even larger boxes with more and higher resistive load resistors as it's easier to find high power 9V supplies than 5V supplies. The fan must then be adjusted accordingly. The MCP1702-3002 LDO regulator for the internal 3.3&nbsp;volts supports up to 13.2&nbsp;volts input operating voltage.
+This project started in the fall of 2018 with a large box for four cavies and two "rooms" ("vestibule" and "lounge") seperately heated. When one cavy was pushed out of the group in summer 2019 another smaller box had to be built, which has only one heating circuit. For the first box I experimented with 9V input to get 30&nbsp;watts heating power, but that was too much for the polyurethane panel and resulted in hot spots over the load resistors. Still, this could be a solution for even larger boxes with more and higher resistive load resistors as it's easier to find high power 9V supplies than 5V supplies. The fan must then be adjusted accordingly. The MCP1702-3002 LDO regulator for the internal 3.3&nbsp;volts supports up to 13.2&nbsp;volts input operating voltage.
 
 The prototype circuit proved itself two winters, so now it was time to convert it to a real PCB.
 
